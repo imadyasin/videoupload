@@ -1,0 +1,13 @@
+package com.example.videoupload.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.videoupload.entity.Video;
+
+@Repository
+public interface VideoRepository extends JpaRepository<Video, Long>{
+	
+	//Video findByFilePath(String filePath);
+
+}

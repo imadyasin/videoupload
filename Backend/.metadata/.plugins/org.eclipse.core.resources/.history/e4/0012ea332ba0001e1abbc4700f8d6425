@@ -1,0 +1,5 @@
+package com.example.videoupload.repository;
+
+public interface VideoRepository {
+
+}

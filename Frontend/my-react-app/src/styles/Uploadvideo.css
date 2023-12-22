@@ -1,0 +1,142 @@
+.mainDiv {
+    background-color: rgb(26, 25, 25);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .line {
+    width: 800px;
+    border-top: 1px solid rgb(252, 247, 247);
+    position: absolute;
+    top: 20%;
+  }
+  
+ 
+.innerDiv {
+  background-color: rgb(36, 35, 35);
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 60px;
+  height: 400px;
+  width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerDiv h3 {
+  text-align: center;
+  color: rgb(189, 186, 186);
+  font-weight: 100;
+  margin-bottom: 10px; 
+}
+
+  .halfSpacesContainer {
+    display: flex;
+    flex: 1; 
+  }
+  
+  .halfSpace1 {
+    flex: 1; 
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: center;
+    margin: 5px; 
+    height: 200px;
+  }
+
+  .halfSpace1 h3 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+
+  .halfSpace1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 10px 10px;
+  }
+
+  .halfSpace2 {
+    flex: 2; 
+    background-color: inherit;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 5px; 
+    height: 200px;
+
+  }
+  .halfSpace2 h3{
+    font-size: 30px;
+    text-align: left;
+    color: silver;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .halfSpace2 h6{
+    font-size: 20px;
+    text-align: left;
+    color: silver;
+    font-weight: 100;
+  }
+
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+
+  
+  .videos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px; 
+  }
+  
+  
+  .videoPreviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .videoPreviewItem {
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  
+  .videoPreviewItem video {
+    width: 400px; 
+    height: 200px; 
+  }
+
+  .allvideos{
+    background-color: black;
+    color: silver;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 100;
+  }
+ 
+  

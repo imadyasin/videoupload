@@ -1,0 +1,61 @@
+package com.example.videoupload.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="students")
+public class Video {
+	
+	 @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	    private Long id;
+
+	    private String videoUrl;
+	    private String title;
+	    private String videoPath;
+		public Long getId() {
+			return id;
+		}
+		public void setId(Long id) {
+			this.id = id;
+		}
+		public String getVideoUrl() {
+			return videoUrl;
+		}
+		public void setVideoUrl(String videoUrl) {
+			this.videoUrl = videoUrl;
+		}
+		public String getTitle() {
+			return title;
+		}
+		public void setTitle(String title) {
+			this.title = title;
+		}
+		public String getVideoPath() {
+			return videoPath;
+		}
+		public void setVideoPath(String videoPath) {
+			this.videoPath = videoPath;
+		}
+		public Video(Long id, String videoUrl, String title, String videoPath) {
+			super();
+			this.id = id;
+			this.videoUrl = videoUrl;
+			this.title = title;
+			this.videoPath = videoPath;
+		}
+		public Video() {
+			super();
+		}
+		@Override
+		public String toString() {
+			return "Video [id=" + id + ", videoUrl=" + videoUrl + ", title=" + title + ", videoPath=" + videoPath + "]";
+		} 
+	    
+	    
+
+}
